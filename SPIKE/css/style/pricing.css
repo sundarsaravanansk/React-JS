@@ -1,0 +1,220 @@
+.pricing-1 {
+    padding-top: 110px;
+}
+
+.pricing-1 .primary-heading-4 {
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+/* PRICING-2 */
+
+.pricing-2 button {
+    border: 1px solid #fff;
+    border-radius: 100px;
+}
+
+.pricing-2 button .btn-a {
+    padding-top: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 13px;
+    background-color: hsl( 259, 100%, 75%);
+    border: 1px solid hsl( 259, 100%, 75%);
+    border-radius: 50px;
+}
+
+.pricing-2 button .btn-b {
+    padding-top: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 13px;
+    background-color: rgb(240, 235, 250);
+    border: 1px solid rgb(240, 235, 250);
+    color: hsl( 259, 100%, 75%);
+    border-radius: 50px;
+}
+
+.pricing-2 button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* PRICING-3 */
+
+.pricing-3 {
+    padding-top: 120px;
+}
+
+.pricing-3 .grid {
+    width: 32%;
+    padding-top: 20px;
+    padding-left: 25px;
+    margin-left: 10px;
+    height: 78vh;
+    background-color: #fff;
+    border-radius: 26px;
+    border: 3px solid rgb(240, 235, 250);
+}
+
+.pricing-3 h3 {
+    font-size: 25px;
+}
+
+.pricing-3 h2 {
+    padding-top: 25px;
+    font-size: 35px;
+}
+
+.pricing-3 span {
+    font-size: 13px;
+}
+
+.pricing-3 .btn,
+.btns {
+    padding-top: 20px;
+}
+
+.pricing-3 .btn button {
+    width: 95%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 3px solid hsl( 259, 100%, 75%);
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    color: hsl( 259, 100%, 75%);
+}
+
+.pricing-3 .btns button {
+    width: 95%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid hsl( 259, 100%, 75%);
+    background-color: hsl( 259, 100%, 75%);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.pricing-3 .btn button:hover,
+.pricing-3 .btns button:hover {
+    background-color: #6f08f6;
+    color: #fff!important;
+    border: 2px solid #6f08f6;
+}
+
+.pricing-3 ul li {
+    padding-top: 25px;
+}
+
+.pricing-3 .cen-1 {
+    background-color: rgb(240, 235, 250);
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    right: 25px;
+    bottom: 20px;
+    width: 426px;
+    padding: 8px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.pricing-3 .cen {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: hsl( 259, 100%, 75%);
+}
+
+.pricing-3 .top {
+    position: relative;
+    bottom: 60px;
+    height: 86vh;
+}
+
+.tik {
+    width: 5%;
+    padding-right: 10px;
+}
+
+.zooms {
+    transition: transform .3s;
+}
+
+.zooms:hover {
+    transform: scale(1.01);
+    border-radius: 25px;
+    box-shadow: 1px 8px 18px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+/* PRICING-4 */
+
+.pricing-4 {
+    padding-top: 30px;
+}
+
+.size {
+    font-size: 42px;
+}
+
+.pricing-4 .grid {
+    padding-top: 40px;
+}
+
+.pricing-4 ul li {
+    padding-top: 25px;
+    font-size: 17px;
+}
+
+.tiks {
+    width: 6%;
+    padding-right: 19px;
+}
+
+
+/* PRICING-5 */
+
+.pricing-5 {
+    padding-top: 70px;
+}
+
+.pd-bt {
+    padding-top: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    text-align: left;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.violet {
+    background-color: hsl( 259, 100%, 75%);
+    color: #fff;
+}
+
+.lgt-violet {
+    background-color: rgb(240, 235, 250);
+}
+
+.tik-cen {
+    width: 24px;
+    position: relative;
+    left: 45px;
+}

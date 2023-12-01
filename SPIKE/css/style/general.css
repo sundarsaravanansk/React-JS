@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* COMMAN CSS */
+
+.df {
+    display: flex;
+}
+
+.df-w {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.wd {
+    width: 100%;
+}
+
+.wd-70 {
+    width: 70%;
+}
+
+.w33 {
+    width: 33.33%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.mx-w {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.mx-w-d {
+    max-width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.mx-w-2 {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.bg {
+    color: hsl( 259, 100%, 75%)!important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.lgt-clr {
+    color: #8e8e8e!important;
+}
+
+.txt-cen {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.pdg {
+    padding-top: 40px;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+    border-radius: 40px;
+    box-shadow: 1px 8px 18px 2px rgba(0, 0, 0, 0.2);
+}
+
+.get-more-sec {
+    text-align: center;
+}
+
+.dis {
+    display: inline-block;
+}
