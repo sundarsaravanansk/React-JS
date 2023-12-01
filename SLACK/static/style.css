@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* COMMAN CSS */
+
+.df {
+    display: flex;
+}
+
+.df-w {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.bdr-vio {
+    border: 1px solid #611f69;
+    border-radius: 8px;
+    color: #611f69!important;
+    margin-right: 20px;
+    font-size: 16px!important;
+    font-weight: 400!important;
+}
+
+.bdr-vio:hover {
+    border: 1.5px solid #a451d1 !important;
+}
+
+.bg-vio {
+    background-color: #611f69;
+    color: #fff!important;
+    border-radius: 8px;
+    padding-right: 30px;
+    margin-right: 20px;
+    font-size: 16px!important;
+    font-weight: 400!important;
+}
+
+.bg-vio:hover {
+    background-color: #490850;
+}
+
+.wd {
+    width: 100%;
+}
+
+.w33 {
+    width: 33.33%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.mx-w {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.mx-w-d {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+/* HEADER CSS */
+
+.header {
+    height: 100px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 190px;
+}
+
+.header .links ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header .links ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 12px 22px 12px 22px;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.header .links ul li a:hover {
+    color: #086ff6;
+}
+
+.header .logo,
+.header .links {
+    display: flex;
+    align-items: center;
+}
+
+
+/* CONTAINER CSS */
+
+.container {
+    /* padding: 70px 8px; */
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+.container .links ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.container .links ul li {
+    margin-top: 25px;
+}
+
+.container .links ul li a {
+    text-decoration: none;
+    padding: 15px 40px 15px 40px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container .links ul li a:hover {
+    color: #086ff6;
+}
+
+.content h2 {
+    width: 70%;
+    font-size: 40px;
+}
+
+.content p {
+    width: 70%;
+    font-size: 18px;
+}
+
+.content h4 {
+    font-weight: 400;
+}
+
+
+/* CONTAINER-2 CSS END */
+
+
+/* GET MORE SECTION */
+
+.get-more-sec {
+    text-align: center;
+}
+
+.get-more-sec .grid {
+    text-align: left;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.get-more-sec .grid .grid-item {
+    max-width: 160px;
+}
+
+.get-more-sec .grid h3 {
+    font-size: 60px;
+    margin-bottom: 7px;
+}
+
+.get-more-sec .grid p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.get-more-sec .small-font {
+    color: #696969;
+}
+
+.container-2 {
+    padding: 70px 8px;
+}
+
+.bg-yellow {
+    background: #f4ede4;
+}
+
+.primary-heading {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.para-1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* CONTAINER-3 CSS */
+
+.container-3 {
+    padding: 80px 8px;
+}
+
+.container-3 h1 {
+    width: 70%;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.container-3 p {
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    width: 70%;
+}
+
+.container-3 a {
+    text-decoration: none;
+    color: #1264a3;
+}
+
+.hr-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #1264a3;
+    transition: width .3s;
+}
+
+.hr-link:hover::after {
+    width: 65%;
+}
+
+.container-3 .arrow {
+    position: relative;
+    left: 420px;
+    bottom: 25px;
+}
+
+
+/* CONTAINER-4 CSS */
+
+
+/* GET MORE SECTION-2 */
+
+.container-4 {
+    padding: 20px 8px;
+}
+
+.get-more-sec-2 {
+    text-align: center;
+}
+
+.get-more-sec-2 .grid {
+    text-align: left;
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+.get-more-sec-2 .grid .grid-item {
+    max-width: 250px;
+}
+
+.get-more-sec-2 .grid h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.get-more-sec-2 .grid p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.get-more-sec-2 .grid .grid-item img {
+    margin-top: 18px;
+    margin-bottom: 17px;
+    width: 20%;
+}
+
+
+/* CONTAINER-5 CSS */
+
+.container-5 {
+    margin-top: 20px;
+}
+
+.content-5 {
+    padding-top: 10%;
+}
+
+.content-5 h1 {
+    font-size: 45px;
+}
+
+.grid-1,
+.grid-2 {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.grid-1 .grid-item,
+.grid-2 .grid-item {
+    width: 290px;
+    height: 270px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.ml {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.bg-arrow {
+    background-image: url(../static/img/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.boxes {
+    margin-top: -110px;
+}
+
+.grid-1 .zoom,
+.grid-2 .zoom {
+    transition: transform .3s;
+}
+
+.grid-1 .zoom:hover,
+.grid-2 .zoom:hover {
+    transform: scale(1.06);
+    color: #086ff6;
+}
+
+
+/* CONTAINER-10 CSS */
+
+.container-10 {
+    padding: 80px 8px;
+}
+
+.container-10 .primary-heading {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.container-10 .para-1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container-10 .get-more-sec {
+    text-align: center;
+    width: 60%;
+}
+
+.container-10 a {
+    text-decoration: none;
+    color: #1264a3;
+}
+
+.container-10 .hr-link::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #1264a3;
+    transition: width .1s;
+    position: relative;
+    left: 40%;
+}
+
+.container-10 .hr-link:hover::after {
+    width: 22%;
+}
+
+.container-10 .arrow {
+    position: relative;
+    left: 115px;
+    bottom: 23px;
+}
+
+.container-10 .zoom {
+    transition: transform .3s;
+}
+
+.container-10 .zoom:hover {
+    transform: scale(1.06);
+}
+
+.box {
+    border: 1px solid #fff;
+    /* box-shadow: 0 10px 6px -6px #777; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    height: 57vh;
+}
+
+.content-10 p {
+    font-size: 17px;
+    width: 70%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.content-10 h5 {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.content-10 span {
+    padding-left: 30px;
+}
+
+.content-10 span a {
+    position: relative;
+    left: 360px;
+    top: 160px;
+}
+
+.zoom-in img {
+    transition: transform .2s;
+}
+
+.zoom-in img:hover {
+    transform: scale(1.09);
+    filter: blur(2px);
+}
+
+
+/*  */
+
+.boxs {
+    margin-top: 20px;
+    width: 100%;
+    height: 50vh;
+    background-color: #611f69;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxs .head h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.boxs .button {
+    border-radius: 10px;
+    border: 1px solid #611f69;
+    text-align: center;
+}
+
+.boxs .button button {
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #611f69;
+}
+
+.boxs button:hover {
+    background-color: #490850;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+/* FOOTER SECTION */
+
+.footer {
+    padding: 50px 8px;
+}
+
+.footer .grid-item ul {
+    list-style-type: none;
+}
+
+.footer .grid-item ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.footer .grid-item ul li a:hover {
+    color: #086ff6;
+}
+
+.footer .grid-item ul li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer .grid-item h5 {
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+hr {
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* FT SECTION */
+
+.ft {
+    padding: 20px 8px;
+}
+
+.ft .links ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.ft .links ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.ft .links ul li a:hover {
+    color: #086ff6;
+}
+
+.ft .lft ul img,
+.ft .rgt ul img {
+    position: relative;
+    left: 20px;
+}
+
+.ft .rgt ul a {
+    padding-left: 20px;
+}
+
+.ft p {
+    padding-top: 15px;
+    font-size: 12px;
+}
