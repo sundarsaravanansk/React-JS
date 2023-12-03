@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* HEADER SECTION */
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: #2874f0; 
+    height: 42px; 
+   
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.header p {
+    color: #fff;
+    font-size: 11px;
+}
+
+.header p span {
+    color: #d7f308;
+}
+
+
+
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+
+.header .dropdown-2 {
+    position: relative;
+    display: inline-block;
+}
+
+.header .dropdown-content-2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    z-index: 1;
+    margin-top: 6px; 
+    transition: max-height 1s;
+   
+}
+
+.header .dropdown-content-2 a {
+    color: #000;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 17px;
+
+}
+
+.header .dropdown-content-2 a:hover {
+    background-color: #f1f1f1;
+    color: #086ff6;
+    font-size: 600;
+
+
+}
+
+.header .dropdown-2:hover .dropdown-content-2 {
+    display: block;
+    
+
+}
+
+
+.a-tag{
+    padding-left: 15px; 
+}
+.pd-lft{
+    padding-left: 50px; 
+}
+.pd-lft:nth-child(1){
+    padding-left: 60px;
+}
+
+.input input{
+    /* padding:6px 150px ; */
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 280px; 
+    border: 1px solid #086ff6;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 14px;
+}
+
+
+.btns button{
+        padding: 6px 40px;
+        border: 1px solid #086ff6;
+        border-radius:6px ;
+        color: #086ff6;
+        cursor: pointer;
+}
+
+
+.side{
+    padding: 5px 0;
+}
+.position{
+ 
+
+
+    position: relative;
+    bottom: 27px;
+    font-weight: 700;
+    left: 10px;
+    color: rgb(158, 11, 11);
+}
+.cart-btn{
+    cursor: pointer;
+    background-color: #086ff6;
+    border:1px solid #086ff6 ;
+    color: #fff;
+    font-size: 15px;
+}

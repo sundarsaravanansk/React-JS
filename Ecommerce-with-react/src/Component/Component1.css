@@ -1,0 +1,21 @@
+.col p{
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 6px;
+    cursor: pointer;
+}
+.col p:hover{
+    color: blue;
+}
+
+.container1{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+}
+.name{
+    text-align: center;
+}

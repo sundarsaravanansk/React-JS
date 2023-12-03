@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Nunito Sans', sans-serif;
+    /* background-color: rgb(245, 248, 251); */
+  }
+  
+  
+  /* COMMAN CSS */
+  
+  .df {
+    display: flex;
+  }
+  
+  .df-w {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .jcsb {
+    justify-content: space-between;
+  }
+  .jcsa{
+    justify-content: space-around;
+  }
+  .wd {
+    width: 100%;
+  }
+  .w80{
+    width: 250%;
+  }
+  
+  .w33 {
+    width: 33.33%;
+  }
+  
+  .w25 {
+    width: 25%;
+  }
+  
+  .mx-w {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .mx-w-d {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .mx-w-s{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
